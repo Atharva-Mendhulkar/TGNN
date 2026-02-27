@@ -1,0 +1,22 @@
+# Core scientific stack
+numpy==1.26.4
+scipy==1.14.1
+pandas==2.2.3
+matplotlib==3.9.2
+networkx==3.3
+jupyter==1.1.1
+
+# PyTorch (CPU/MPS backend for Apple Silicon)
+torch==2.7.0
+torchvision==0.22.0
+torchaudio==2.7.0
+
+# PyTorch Geometric dependencies (extensions)
+pyg_lib
+torch_scatter
+torch_sparse
+torch_cluster
+torch_spline_conv
+
+# PyTorch Geometric (meta-package)
+torch_geometric
