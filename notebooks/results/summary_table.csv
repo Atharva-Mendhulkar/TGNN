@@ -1,0 +1,8 @@
+,avg_conflicts,avg_conflicts,avg_recolors,avg_recolors,avg_latency,avg_latency,total_repairs
+,mean,std,mean,std,mean,std,mean
+method,,,,,,,
+DSATUR,0.0,0.0,59.13,36.66,8.55,8.04,0.0
+GNN (no repair),536.56,304.08,0.91,1.07,66.71,28.55,0.0
+GNN + Repair(3),475.53,296.4,3.01,0.93,36.02,5.22,30.0
+GNN + Repair(5),443.36,291.15,4.21,1.06,36.76,8.85,49.89
+Greedy,0.0,0.0,49.37,27.75,0.15,0.08,0.0
