@@ -152,7 +152,3 @@ python main.py --nodes 100 --snapshots 10 --budget 5 --device mps
 * **Architecture Upgrades:** Transitioning from standard GRU to `GConvGRU` or `EvolveGCN` for deeper topological-temporal fusion.
 * **Learned Repair Policies:** Replacing the greedy heuristic with an RL-based agent that selectively targets nodes for repair.
 * **Real-World Topologies:** Benchmarking against empirical datasets like traffic phase intersections or temporal cloud-contention traces.
-
----
-
-Would you like me to adjust any of the descriptive text beneath the newly linked plots, or are you ready to commit this to your repository?
